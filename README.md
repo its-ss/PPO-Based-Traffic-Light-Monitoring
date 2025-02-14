@@ -12,5 +12,52 @@ The repository contains the following key files:
 ## Requirements
 To run the notebooks, install the following dependencies:
 
-```bash
+'''bash
 pip install jupyter numpy matplotlib gym tensorflow torch stable-baselines3 sumo
+'''
+
+## SUMO Installation
+SUMO (Simulation of Urban Mobility) is required to run the simulations. Install it using:
+
+Linux:
+
+'''bash
+sudo apt-get install sumo
+'''
+
+macOS:
+'''bash
+brew install sumo
+'''
+
+Windows:
+Download and install SUMO from Eclipse SUMO (href: https://sumo.dlr.de/docs/Downloads.php).
+
+## How to Run
+Open Jupyter Notebook:
+'''bash
+jupyter notebook
+'''
+Open Fixed.ipynb to analyze the fixed traffic light monitoring system.
+Open PPO.ipynb to train and evaluate the PPO-based model.
+Run all the cells in sequence.
+
+## Methodology
+Environment Setup: SUMO simulates a single intersection with mixed traffic conditions.
+Reinforcement Learning (PPO):
+  State Space: Number of vehicles, waiting time, and current traffic signal phase.
+  Action Space: Choosing an optimal green light phase.
+  Reward Function: Minimizes waiting time and queue length.
+  Comparison: The performance of fixed-time vs. RL-based adaptive control is evaluated.
+
+
+## Authors
+Abdul Jumail (MIT Manipal) 
+Suyash Shukla (MIT Manipal) 
+Rashmi Laxmikant Malghan (MIT Manipal)
+
+## License
+🚨 This project is private and copyrighted. Unauthorized distribution or reproduction is prohibited.
+
+## Contact
+For any inquiries, please contact: 📧 rashmi.malghan@manipal.edu
