@@ -1,6 +1,5 @@
-Here's the complete README.md code that you can directly copy and paste into your GitHub repository:
 
-```markdown
+
 # PPO-Based Traffic Light Monitoring System
 
 ## Overview
