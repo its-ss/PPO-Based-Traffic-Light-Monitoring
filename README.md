@@ -61,9 +61,9 @@ The performance of fixed-time vs. RL-based adaptive control is evaluated.
 
 ## Authors
 
-- Abdul Jumail (MIT Manipal)
-- Suyash Shukla (MIT Manipal)
-- Rashmi Laxmikant Malghan (MIT Manipal)
+- Abdul Jumail: jumail.mitmpl2023@learner.manipal.edu
+- Suyash Shukla: suyash3.mitmpl2023@learner.manipal.edu
+- Rashmi Laxmikant Malghan: rashmi.malghan@manipal.edu
 
 ## License
 
