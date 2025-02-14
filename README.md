@@ -1,5 +1,3 @@
-
-
 # PPO-Based Traffic Light Monitoring System
 
 ## Overview
