@@ -7,8 +7,8 @@ This project implements a **Proximal Policy Optimization (PPO)-based Reinforceme
 ## Project Structure
 
 The repository contains the following key files:
-- **`PPO.ipynb`** - Implements the PPO reinforcement learning model to optimize traffic light control at a single intersection.
-- **`Fixed.ipynb`** - Implements a fixed traffic light monitoring system to compare performance with the RL-based model.
+- **`PPO.py`** - Implements the PPO reinforcement learning model to optimize traffic light control at a single intersection.
+- **`Fixed.py`** - Implements a fixed traffic light monitoring system to compare performance with the RL-based model.
 
 ## Requirements
 
